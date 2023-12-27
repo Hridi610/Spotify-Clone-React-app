@@ -1,0 +1,38 @@
+.side-bar-container{
+    color: rgb(197, 197, 197);
+}
+
+.side-bar-items{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+    gap: 8px;
+    height: auto;
+    font-weight: 300;
+    cursor: pointer;
+    
+}
+.side-options{
+    margin-top: 40px;
+}
+
+
+
+.divider{
+  border-bottom:0px solid #888989;
+  margin:0px 0;
+}
+
+.side-bar-container::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+.side-bar-container::-webkit-scrollbar-track {
+    background: orange;        /* color of the tracking area */
+  }
+  
+.side-bar-container::-webkit-scrollbar-thumb {
+    background-color: blue;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid orange;  /* creates padding around scroll thumb */
+  }

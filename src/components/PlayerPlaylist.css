@@ -1,0 +1,86 @@
+.player-playlist-container{
+    padding: 20px;
+    height: 92%;
+    overflow-y: scroll;
+}
+
+.player-playlist-header{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    align-items:center;
+}
+
+.playlist-image-card{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    background-image:url('https://marketplace.canva.com/EAEdft48JIs/1/0/800w/canva-orange-skyline-tumblr-aesthetic-love-songs-playlist-cover-2QKeBBXKmSo.jpg');
+    background-size: cover;
+}
+
+.playlist-body{
+    color:#ededed;
+    display: flex;
+    flex-direction:column;
+    gap: 0px;
+}
+
+.divider{
+    border-bottom:1px solid #888989;
+    margin:20px 0;
+}
+.justify{
+    justify-content: flex-end;
+
+}
+
+.playlist-body h1{
+    font-size: 3.5em;
+}
+
+.playlist-list{
+    color:#dcdcdc;
+    margin-top:30px;
+    display: flex;
+
+}
+
+
+.playlist-list .playlist-list-id{
+    width: 10%;
+}
+.playlist-list .playlist-list-title{
+    width: 30%;
+}
+.playlist-list .playlist-list-album{
+    width: 30%;
+}
+.playlist-list .playlist-list-duration{
+    width: 10%;
+}
+
+.playlist-list-container {
+    height: auto;
+    overflow-y:hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

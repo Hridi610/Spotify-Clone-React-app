@@ -1,0 +1,27 @@
+.player-container{
+  width: auto;
+  height: 85vh;
+  display: flex;
+}
+
+.player-container .side-bar{
+  width: 20%;
+  height: auto;
+  background: linear-gradient(transparent, rgba(0,0,0,1));
+  background-color: #141414;
+
+}
+
+.player-container .player-playlist{
+  width: 80%;
+  height: auto;
+  background: linear-gradient(transparent, rgba(0,0,0,1));
+  background-color: rgba(31, 87, 100);
+}
+
+.footer-container{
+  width: auto;
+  height: 10vh;
+  background-color: #141414;
+
+}

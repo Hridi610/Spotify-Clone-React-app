@@ -1,0 +1,10 @@
+.container{
+    width: auto;
+    height: 5vh;
+    background-color: #121212;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    box-shadow: 0 2px 4px 0 rgba(red, green, blue, alpha);
+
+}
